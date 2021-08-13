@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checking Version') {
             steps {
-                sh 'mvn clean package'
+                sh 'mvn -version'
             }
         }
     }
